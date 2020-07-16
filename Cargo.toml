@@ -4,4 +4,12 @@ version = "0.1.0"
 authors = ["吴翱翔 <pylint@yandex.com>"]
 edition = "2018"
 
+[lib]
+name = "proc_macros_get_struct_fields"
+path = "src/lib.rs"
+
+[[bin]]
+name = "proc_macros_get_struct_fields"
+path = "src/main.rs"
+
 [dependencies]
