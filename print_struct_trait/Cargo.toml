@@ -1,0 +1,7 @@
+[package]
+name = "print_struct_trait"
+version = "0.0.1"
+edition = "2018"
+
+[dependencies]
+print_struct_derive = { path = "../print_struct_derive"}
