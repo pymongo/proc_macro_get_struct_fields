@@ -19,3 +19,4 @@ name = "proc_macros_get_struct_fields"
 path = "src/main.rs"
 
 [dependencies]
+print_struct_trait = { path = "print_struct_trait" }
